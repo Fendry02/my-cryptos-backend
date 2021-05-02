@@ -1,0 +1,31 @@
+{
+  "name": "my-cryptos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --color",
+    "lint:fix": "eslint . --color --fix",
+    "format": "prettier --write './**/*.js'",
+    "dev": "nodemon index.js"
+  },
+  "author": "Benoit",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "@hapi/hapi": "^20.1.2",
+    "glob": "^7.1.6",
+    "joi": "^17.4.0",
+    "mongoose": "^5.12.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "prettier": "^2.2.1"
+  }
+}
